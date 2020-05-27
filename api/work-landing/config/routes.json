@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/work-landing",
+      "handler": "work-landing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/work-landing",
+      "handler": "work-landing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/work-landing",
+      "handler": "work-landing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

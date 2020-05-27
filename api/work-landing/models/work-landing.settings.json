@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_landing",
+  "info": {
+    "name": "Work Landing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "richtext"
+    }
+  }
+}
