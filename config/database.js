@@ -6,10 +6,16 @@ module.exports = ({ env }) => ({
       settings: {
         client: "mongo",
         uri: env("DATABASE_HOST"),
+        host: env("DATABASE_HOST", "127.0.0.1"),
+        srv: env.bool("DATABASE_SRV", false),
+        port: env.int("DATABASE_PORT", 27017),
+        database: env("DATABASE_NAME", "strapi_portfolio"),
+        username: env("DATABASE_USERNAME", ""),
+        password: env("DATABASE_PASSWORD", ""),
       },
       options: {
-        authenticationDatabase: "admin",
-        ssl: true,
+        authenticationDatabase: env("AUTHENTICATION_DATABASE", null),
+        ssl: env.bool("DATABASE_SSL", false),
       },
     },
   },
