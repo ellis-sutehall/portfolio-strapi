@@ -1,4 +1,3 @@
-# Strapi application
+# Portfolio
 
-A quick description of your strapi application
-Update
+Strapi powered backend for Ellis Sutehall's portfolio site.
