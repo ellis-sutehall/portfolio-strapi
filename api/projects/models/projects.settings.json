@@ -48,7 +48,10 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
+    },
+    "Order": {
+      "type": "integer"
     }
   }
 }
