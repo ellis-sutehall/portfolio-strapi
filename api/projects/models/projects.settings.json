@@ -52,6 +52,9 @@
     },
     "Order": {
       "type": "integer"
+    },
+    "meta_description": {
+      "type": "string"
     }
   }
 }

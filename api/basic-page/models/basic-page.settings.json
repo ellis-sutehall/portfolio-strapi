@@ -37,6 +37,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "meta_description": {
+      "type": "string"
     }
   }
 }
